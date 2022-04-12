@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.header {
+  display: inline-flex;
+  height: 10em;
+  width: 100%;
+  margin: 0px;
+  background-color: rgb(253,166,175);
+  border-bottom: 2px solid #376051;
+  border-top: 2px solid #376051;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.header img {
+  height: 10em;
+  width: 10em;
+  margin-left: 5px;
+}
+
+.header ul {
+  display: inline-flex;
+  margin-right: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header li a {
+  margin: 0px 20px;
+  text-decoration: none;
+  font-size: 1.8em;
+  color: black;
+  font-weight: bold;
+}
+
+.header li a:hover {
+  color: #376051;
+}
+
+.footer {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(253,166,175);
+  border-top: 2px solid black;
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style: none;
+  
+}
+
+.footer img {
+  height: 2em;
+  width: 2em;
+}
+
+.about, .reading_list, .members, .join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about img, .reading_list img, .members img, .join img {
+  width: 100%;
+  margin-top: 10em;
+}
+
+.about h1, .reading_list .media h1, .members h1, .join h1 {
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.blurb {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blurb img {
+  width: 20em;
+  margin: 0px 10px 15px 10px;
+}
+
+.about .blurb h2, .blurb h2 {
+  margin: 10px;
+  max-width: 20em;
+  text-align: center;
+}
+
+.reading_list .blurb ul {
+  font-size: 1.5em;
+}
+
+.mem_cards {
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+}
+
+.mem_cards img {
+  width:20em;
+  height:23em;
+  padding-top: 1em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #76d8b2;
+  border-radius: 7px;
+}
+
+.card h3, .card h2 {
+  word-wrap: break-word;
+  width: 15em;
+  margin: 0px;
+  overflow: cover;
+}
